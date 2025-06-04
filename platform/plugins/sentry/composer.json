@@ -1,0 +1,8 @@
+{
+    "name": "botble/sentry",
+    "description": "Sentry plugin for Botble CMS",
+    "type": "botble-plugin",
+    "require": {
+        "sentry/sentry-laravel": "^3.0"
+    }
+}

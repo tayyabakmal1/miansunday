@@ -1,0 +1,11 @@
+{
+    "id": "botble/sentry",
+    "name": "Sentry",
+    "namespace": "Botble\\Sentry\\",
+    "provider": "Botble\\Sentry\\Providers\\SentryServiceProvider",
+    "author": "Botble Technologies",
+    "url": "https://botble.com",
+    "version": "1.0.0",
+    "description": "Integrate Sentry.io into Botble CMS to capture and monitor backend and frontend errors.",
+    "minimum_core_version": "7.3.0"
+}
