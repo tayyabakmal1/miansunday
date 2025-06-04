@@ -1,0 +1,14 @@
+{
+  "name": "SalesPulse",
+  "namespace": "SalesPulse\\",
+  "url": "https://tayyabakmal.com",
+  "description": "Show real-time or recent sales popups on the frontend.",
+  "author": "Tayyab Akmal",
+  "version": "1.0.0",
+  "provider": "SalesPulse\\Providers\\SalesPulseServiceProvider",
+  "autoload": {
+    "psr-4": {
+      "SalesPulse\\": "src/"
+    }
+  }
+} 

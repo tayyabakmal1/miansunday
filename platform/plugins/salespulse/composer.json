@@ -1,0 +1,12 @@
+{
+  "name": "your-vendor/salespulse",
+  "description": "Show real-time or recent sales popups on the frontend.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SalesPulse\\": "src/"
+    }
+  },
+  "require": {}
+} 

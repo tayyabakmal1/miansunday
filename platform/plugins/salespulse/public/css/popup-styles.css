@@ -1,0 +1,79 @@
+/* Default style */
+.salespulse-popup.style-default {
+    position: fixed;
+    left: 20px;
+    bottom: 30px;
+    background: #fff;
+    color: #222;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    padding: 18px 32px 18px 18px;
+    z-index: 9999;
+    font-size: 1rem;
+    min-width: 260px;
+    max-width: 350px;
+    transition: box-shadow 0.2s;
+}
+
+/* Modern style */
+.salespulse-popup.style-modern {
+    background: linear-gradient(135deg, #4f8cff 0%, #6ee7b7 100%);
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 24px rgba(79,140,255,0.15);
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+/* Rounded style */
+.salespulse-popup.style-rounded {
+    border-radius: 32px;
+    background: #f7fafc;
+    color: #222;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+}
+
+/* Dark style */
+.salespulse-popup.style-dark {
+    background: #222;
+    color: #fff;
+    border: 1px solid #444;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+}
+
+/* Light style */
+.salespulse-popup.style-light {
+    background: #fff;
+    color: #222;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.05);
+}
+
+.salespulse-popup .salespulse-dismiss {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    color: inherit;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* Animations */
+.salespulse-popup.fade-in {
+    animation: salespulse-fade-in 0.5s;
+}
+.salespulse-popup.fade-out {
+    animation: salespulse-fade-out 0.5s;
+}
+@keyframes salespulse-fade-in {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes salespulse-fade-out {
+    from { opacity: 1; transform: translateY(0); }
+    to { opacity: 0; transform: translateY(30px); }
+} 

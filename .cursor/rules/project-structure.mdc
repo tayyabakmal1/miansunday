@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Project Structure Guide
+
+This project is a Laravel-based application with the following key components:
+
+- The main application code is in [app/](mdc:app), containing Controllers, Middleware, Models, and Providers.
+- Configuration files are in [config/](mdc:config).
+- Database migrations, seeders, and factories are in [database/](mdc:database).
+- Publicly accessible files are in [public/](mdc:public).
+- Views and frontend assets are in [resources/](mdc:resources).
+- Route definitions are in [routes/](mdc:routes).
+- Platform-specific core, packages, plugins, and themes are in [platform/](mdc:platform).
+- Composer dependencies are managed in [composer.json](mdc:composer.json) and installed in [vendor/](mdc:vendor).
+- Environment variables are set in [.env](mdc:.env).
+
+Refer to these directories and files for navigation and understanding of the codebase structure.
+
